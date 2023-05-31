@@ -12,9 +12,9 @@ const Navbar = () => {
       <div className='navbar flex space-x-20'>
         <ul className='flex space-x-20 text-[#808080] font-bold text-[12px]'>
           <li><Link href="/">HOME</Link></li>
-          <li><Link href="/about">ABOUT US</Link></li>
-          <li><Link href="/shop">SHOP</Link></li>
-          <li><Link href="/contact">CONTACT</Link></li>
+          <li><Link href="page/about">ABOUT US</Link></li>
+          <li><Link href="page/shop">SHOP</Link></li>
+          <li><Link href="page/contact">CONTACT</Link></li>
         </ul>
         <div>
           <img src="navbar-icon/Search.svg" alt="" />
